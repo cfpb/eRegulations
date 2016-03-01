@@ -1,13 +1,6 @@
 ---
 layout: default
-title: eRegulations
+subtemplates: [intro, instances, index]
+redirect_to:
+  - https://eregs.github.io/
 ---
-
-{% capture intro %}{% include intro.md %}{% endcapture %}
-{{ intro | markdownify }}
-
-{% capture repos %}{% include repos.md %}{% endcapture %}
-{{ repos | markdownify }}
-
-{% capture index %}{% include index.md %}{% endcapture %}
-{{ index | markdownify }}
